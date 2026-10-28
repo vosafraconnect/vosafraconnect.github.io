@@ -1,0 +1,11 @@
+{
+  "name": "VOSAFRA CONNECT",
+  "short_name": "VOSAFRA",
+  "description": "Serviços agrícolas sob demanda: pulverização com drone, mapeamento, apoio agronômico e Rota Safra.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0C352D",
+  "theme_color": "#0C352D",
+  "icons": [{ "src": "img/symbol.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--A:HEAD-->
+<title>VOSAFRA CONNECT</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Contrate pulverização com drone, mapeamento, apoio agronômico e limpeza de placas solares com profissionais verificados. Rotas coletivas e comprovante de execução. Piloto em Santa Teresa-ES.">
+<meta name="theme-color" content="#0C352D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<!--/A:HEAD-->
+<meta property="og:title" content="VOSAFRA CONNECT · Serviços agrícolas sob demanda">
+<meta property="og:description" content="Você não precisa comprar drone. Contrate o serviço certo, na janela certa, com comprovação. Piloto em Santa Teresa-ES.">
+<meta property="og:locale" content="pt_BR">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/symbol.svg" type="image/svg+xml">
+</head>
+<body>
+<!--A:BODY-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4.5 19.5l1.2-3.6A7.8 7.8 0 1 1 8.6 19z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 9.3c.2 2.3 2.2 4.4 4.6 4.8l1.1-1.1 1.8.8c-.2 1-1 1.6-2 1.6-3.3-.3-6.1-3-6.4-6.3 0-1 .7-1.8 1.6-2l.8 1.8z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-drone" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="7" cy="8" r="4"/><circle cx="25" cy="8" r="4"/><circle cx="7" cy="24" r="4"/><circle cx="25" cy="24" r="4"/><path d="M10 11l3.5 3.5M22 11l-3.5 3.5M10 21l3.5-3.5M22 21l-3.5-3.5"/><rect x="12.5" y="12.5" width="7" height="7" rx="2"/></g><g fill="currentColor" opacity=".55"><circle cx="13" cy="29" r=".9"/><circle cx="16" cy="30" r=".9"/><circle cx="19" cy="29" r=".9"/></g></symbol>
+    <symbol id="i-map" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 8l7-3 10 3 7-3v19l-7 3-10-3-7 3z"/><path d="M11 5v19M21 8v19"/><path d="M13 13c2 1 4 1 6 0M13 17c2 1 4 1 6 0" stroke-linecap="round"/></g></symbol>
+    <symbol id="i-scan" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 10V6a2 2 0 0 1 2-2h4M22 4h4a2 2 0 0 1 2 2v4M28 22v4a2 2 0 0 1-2 2h-4M10 28H6a2 2 0 0 1-2-2v-4"/><path d="M16 9c4 3 4 11 0 14-4-3-4-11 0-14zM16 12v11"/><path d="M4 16h24" stroke-dasharray="2 3"/></g></symbol>
+    <symbol id="i-agro" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="5" width="18" height="23" rx="3"/><path d="M12 5V3.5h8V5"/><path d="M12 20c0-4 3-7 8-7-0 4-3 7-8 7zM12 20l4-4"/><path d="M11 24h10"/></g></symbol>
+    <symbol id="i-solar" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6 14h20l3 12H3z"/><path d="M4.5 20h23M12 14l-2 12M20 14l2 12"/><circle cx="16" cy="6" r="2.5"/><path d="M16 1v1M21 6h1M10 6h1M19.5 2.5l.7-.7M12.5 2.5l-.7-.7" stroke-linecap="round"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="24" height="22" rx="3"/><path d="M4 12h24M10 3v6M22 3v6"/><path d="M9 21c3-4 5 2 8-2s4-1 6-3"/></g></symbol>
+    <symbol id="v-mark" viewBox="0 0 40 40"><rect width="40" height="40" rx="11" fill="#0C352D"/><g fill="none" stroke-linecap="round"><path d="M9 10.5L20 31 31 10.5" stroke="#F6F6F0" stroke-width="3.4" stroke-linejoin="round"/><path d="M14.5 10.5c2.3 4.6 4 8.2 5.5 12.6M25.5 10.5c-1.4 2.8-2.6 5.3-3.6 7.7" stroke="#87A996" stroke-width="1.6"/></g><circle cx="31" cy="10.5" r="3" fill="#BAEB49"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a class="logo" href="#top" aria-label="VOSAFRA CONNECT, início">
+      <svg aria-hidden="true"><use href="#v-mark"/></svg>
+      <span class="logo__name">VOSAFRA<small>CONNECT</small></span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#como-funciona">Como funciona</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#rota-safra">Rota Safra</a></li>
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#parceiros">Parceiros</a></li>
+      <li><a href="#duvidas">Dúvidas</a></li>
+    </ul>
+    <a class="btn nav__cta" href="#orcamento" data-perfil="produtor">Pedir orçamento</a>
+    <button class="nav__menu" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer"><span></span></button>
+  </div>
+</header>
+<nav class="drawer" id="drawer" aria-label="Menu" hidden>
+  <button class="drawer__close" id="menuClose" aria-label="Fechar menu">×</button>
+  <a href="#como-funciona">Como funciona</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#rota-safra">Rota Safra</a>
+  <a href="#planos">Planos</a>
+  <a href="#parceiros">Operadores e cooperativas</a>
+  <a href="#duvidas">Dúvidas</a>
+  <a class="btn" href="#orcamento" data-perfil="produtor">Pedir orçamento</a>
+</nav>
+
+<main id="top">
+  <!-- HERO: filme procedural da serra de Santa Teresa -->
+  <!-- ABERTURA: vídeo em tela cheia + marca centralizada.
+       Para usar filmagem própria, salve o arquivo como site/img/abertura.mp4 (1920x1080, até ~8 MB, sem áudio).
+       Sem o arquivo, roda o filme procedural do drone sobre o café. -->
+  <section class="hero" aria-label="Abertura">
+    <canvas class="hero__film" id="filmHero" aria-hidden="true"></canvas>
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="img/abertura.mp4" type="video/mp4">
+    </video>
+    <small class="hero__credit">Imagem ilustrativa · vídeo: Magda Ehlers / Pexels</small>
+    <div class="hud" id="hud" aria-hidden="true">
+      <span class="hud__loc">SANTA TERESA-ES · 19°56'S 40°36'W</span>
+      <b>TALHÃO 03 · 8,0 ha</b>
+      <span class="hud__row"><span>COBERTURA</span><span id="hudPct">0%</span></span>
+      <span class="hud__bar"><i id="hudBar"></i></span>
+      <span class="hud__state" id="hudState">○ EM ROTA</span>
+    </div>
+    <div class="hero__center">
+      <span class="hero__loc"><i></i>Piloto em Santa Teresa · Espírito Santo</span>
+      <p class="lockup" aria-label="VOSAFRA CONNECT">
+        <svg class="lockup__mark" aria-hidden="true"><use href="#v-mark"/></svg>
+        <span class="lockup__name">VOSAFRA</span>
+        <span class="lockup__sub">C O N N E C T</span>
+      </p>
+      <p class="hero__tag">Precisão no alto. Resultado no campo.</p>
+    </div>
+    <div class="hero__dock">
+      <div class="dock__stats">
+        <div class="stat"><b>269,4 mil ha</b><span>de conilon no ES</span><small>Seag · 2026</small></div>
+        <div class="stat"><b>70</b><span>operadores com drone</span><small>Idaf · out/2025</small></div>
+        <div class="stat"><b>R$ 0</b><span>em drone para você comprar</span><small>Você contrata</small></div>
+      </div>
+      <a class="dock__talk" href="#" data-wa="produtor">
+        <svg class="dock__drone" viewBox="0 0 160 70" aria-hidden="true"><g fill="none" stroke-linecap="round"><path d="M80 30v40" stroke="#87A996" stroke-width="1.2"/><path d="M18 14h46M96 14h46" stroke="#202B27" stroke-width="3"/><path d="M8 10h22M34 10h22M104 10h22M130 10h22" stroke="#202B27" stroke-width="2" opacity=".55"/></g><rect x="62" y="8" width="36" height="20" rx="6" fill="#202B27"/><rect x="70" y="26" width="20" height="8" rx="3" fill="#0C352D"/><circle cx="80" cy="14" r="2.4" fill="#BAEB49"/></svg>
+        <span><b>Fale com a gente!</b><small>Orçamento direto pelo WhatsApp</small></span>
+        <svg class="dock__go" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+    </div>
+    <span class="scroll-cue" aria-hidden="true">Role</span>
+  </section>
+
+  <!-- PROMESSA (texto principal logo após a abertura) -->
+  <section class="promise" aria-labelledby="h-hero">
+    <div class="wrap hero__in">
+      <span class="tag">Serviços agrícolas sob demanda · pelo site ou WhatsApp</span>
+      <h1 id="h-hero">Você não precisa comprar drone. <span class="thin">Precisa do serviço certo, <span class="hl">na hora certa.</span></span></h1>
+      <p class="hero__sub">Pulverização com drone, mapeamento e apoio agronômico com profissionais verificados. Você pede pelo site ou WhatsApp. A gente avalia sua área, monta a rota e entrega o registro do que foi feito.</p>
+      <div class="btn-row">
+        <a class="btn btn--wa" href="#" data-wa="produtor"><svg aria-hidden="true"><use href="#i-chat"/></svg>Pedir orçamento no WhatsApp</a>
+        <a class="btn btn--ghost" href="#orcamento" data-perfil="produtor">Solicitar avaliação da minha área</a>
+      </div>
+      <ul class="hero__chips">
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Operadores verificados</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Receituário e documentação conferidos</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>Comprovante de execução em cada serviço</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CAMPO DE VERDADE: vídeo real em moldura 3D -->
+  <section class="campo" aria-labelledby="h-campo">
+    <div class="wrap">
+      <div class="campo__stage" id="campoStage">
+        <figure class="campo__frame" id="campoFrame">
+          <video id="campoVideo" muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="img/campo-cafe.mp4" type="video/mp4">
+          </video>
+          <figcaption class="campo__txt">
+            <span class="tag">O campo visto de cima</span>
+            <h2 id="h-campo">Encosta, curva de nível e janela curta. <span class="hl">É aqui que o drone faz diferença.</span></h2>
+            <p>Lavoura em morro é onde o trator não chega e a bomba costal cansa. Do alto, cada fileira é atendida e registrada.</p>
+          </figcaption>
+          <small class="campo__credit">Imagem ilustrativa de lavouras de café em encosta · vídeo: Federico Molina / Pexels</small>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Piloto Santa Teresa-ES</span><span>Café arábica e conilon</span><span>Pulverização com drone</span><span>Mapeamento de talhão</span><span>Limpeza de placas solares</span><span>Rota Safra</span><span>Comprovante em cada serviço</span>
+      <span>Piloto Santa Teresa-ES</span><span>Café arábica e conilon</span><span>Pulverização com drone</span><span>Mapeamento de talhão</span><span>Limpeza de placas solares</span><span>Rota Safra</span><span>Comprovante em cada serviço</span>
+    </div>
+  </div>
+
+  <!-- PROBLEMA -->
+  <section class="band" aria-labelledby="h-dor">
+    <div class="wrap">
+      <div class="sec-head sec-head--split rv">
+        <div style="display:grid;gap:18px">
+          <span class="tag">A realidade de quem planta em área pequena</span>
+          <h2 id="h-dor">Plantar bem você sabe. O difícil é achar quem execute, <span class="hl">na hora certa.</span></h2>
+        </div>
+        <p class="lead">Três problemas que todo produtor da serra conhece. Resultado: dinheiro na mesa, safra no improviso e dor de cabeça na hora de comprovar.</p>
+      </div>
+      <div class="pains rv">
+        <article class="pain">
+          <span class="pain__n">PROBLEMA 01 · NEGOCIAÇÃO</span>
+          <h3>Área pequena, pouco poder de negociação.</h3>
+          <p>Com 5 ou 8 hectares, é difícil um prestador encaixar você na agenda. E comprar drone não fecha a conta.</p>
+        </article>
+        <article class="pain">
+          <span class="pain__n">PROBLEMA 02 · JANELA</span>
+          <h3>A janela passa e o serviço não chega.</h3>
+          <p>Chuva, neblina, prestador sem data. Quando ele aparece, o momento certo já foi.</p>
+        </article>
+        <article class="pain">
+          <span class="pain__n">PROBLEMA 03 · REGISTRO</span>
+          <h3>Fez o serviço, mas cadê o papel?</h3>
+          <p>Sem registro do que foi aplicado, onde e quando, você fica sem prova para cooperativa, comprador ou fiscalização.</p>
+        </article>
+      </div>
+      <div class="solve rv">
+        <p>O <strong>VOSAFRA CONNECT</strong> junta tudo num só lugar: quem executa, quando executa e o comprovante do que foi feito.</p>
+        <a class="btn" href="#como-funciona">Ver como funciona <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="band band--dark" id="como-funciona" aria-labelledby="h-como">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="tag">Simples para você. Organizado nos bastidores.</span>
+        <h2 id="h-como">Do pedido ao comprovante, <span class="hl">em 5 passos.</span></h2>
+        <p class="lead">Você não precisa entender de tecnologia. Precisa só contar o que sua lavoura precisa, pelo WhatsApp ou aqui no site.</p>
+      </div>
+      <div class="how">
+        <div>
+          <ol class="steps" id="steps">
+            <li class="step is-on" data-step="0"><div class="step__n"><b>1</b></div><div><h3>Pedido</h3><p>Você conta a cultura, a área, o talhão, o local e quando precisa.</p></div></li>
+            <li class="step" data-step="1"><div class="step__n"><b>2</b></div><div><h3>Validação</h3><p>A gente confere documentos, receituário e se o serviço pode ser feito na sua área.</p></div></li>
+            <li class="step" data-step="2"><div class="step__n"><b>3</b></div><div><h3>Match + Rota</h3><p>Escolhemos um operador verificado e encaixamos você na rota da sua região.</p></div></li>
+            <li class="step" data-step="3"><div class="step__n"><b>4</b></div><div><h3>Execução</h3><p>A equipe executa quando o clima e as condições técnicas permitem.</p></div></li>
+            <li class="step" data-step="4"><div class="step__n"><b>5</b></div><div><h3>Comprovação</h3><p>Você recebe o registro do serviço, paga de forma organizada e já fica com o próximo passo combinado.</p></div></li>
+          </ol>
+          <div class="btn-row" style="margin-top:32px">
+            <a class="btn" href="#orcamento" data-perfil="produtor">Fazer meu pedido</a>
+            <a class="btn btn--ghost" href="#" data-wa="produtor"><svg aria-hidden="true"><use href="#i-chat"/></svg>Prefiro pelo WhatsApp</a>
+          </div>
+        </div>
+        <div class="phone" aria-label="Exemplo ilustrativo de conversa pelo WhatsApp">
+          <div class="phone__screen">
+            <div class="phone__bar">
+              <span class="phone__av"><svg aria-hidden="true"><use href="#v-mark"/></svg></span>
+              <span class="phone__who">VOSAFRA CONNECT<small>exemplo ilustrativo</small></span>
+            </div>
+            <div class="chat" id="chat" aria-live="off"></div>
+            <div class="phone__input">Mensagem</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="band band--paper" id="servicos" aria-labelledby="h-serv">
+    <div class="wrap">
+      <div class="sec-head sec-head--split rv">
+        <div style="display:grid;gap:18px">
+          <span class="tag">O que você pode contratar</span>
+          <h2 id="h-serv">Um ponto de contato. Vários serviços para a sua safra.</h2>
+        </div>
+        <p class="lead">Cada pedido passa por avaliação. Se o serviço não for o melhor caminho para a sua área, a gente fala.</p>
+      </div>
+      <div class="services">
+        <article class="svc rv">
+          <span class="svc__ico"><svg aria-hidden="true"><use href="#i-drone"/></svg></span>
+          <h3>Pulverização com drone</h3>
+          <p>Aplicação aérea feita por operador habilitado, após avaliação técnica e com receituário.</p>
+          <p class="svc__for"><b>Ideal para</b>Lavouras em encosta, áreas de difícil acesso com trator ou bomba costal.</p>
+          <a class="svc__link" href="#orcamento" data-perfil="produtor" data-servico="Pulverização com drone">Pedir orçamento <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="svc rv">
+          <span class="svc__ico"><svg aria-hidden="true"><use href="#i-map"/></svg></span>
+          <h3>Mapeamento de talhão</h3>
+          <p>Levantamento aéreo para saber área real, falhas e limites de cada talhão.</p>
+          <p class="svc__for"><b>Ideal para</b>Quem quer planejar adubação, renovação ou pedir orçamento com área certa.</p>
+          <a class="svc__link" href="#orcamento" data-perfil="produtor" data-servico="Mapeamento de talhão">Pedir orçamento <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="svc svc--solar rv">
+          <div class="solar__stage"><canvas id="filmSolar" aria-hidden="true"></canvas><span class="solar__hud" id="solarHud" aria-hidden="true">LIMPEZA · 0 PLACAS</span></div>
+          <div class="svc__body">
+            <span class="svc__badge" style="position:static;justify-self:start;background:rgba(186,235,73,.15);color:var(--lima)">Também atendemos fora da lavoura</span>
+            <h3>Limpeza de placas solares com drone</h3>
+            <p>Limpeza das placas sem precisar subir no telhado ou montar andaime.</p>
+            <p class="svc__for"><b>Ideal para</b>Propriedades rurais, galpões, empresas e usinas com energia solar.</p>
+            <a class="svc__link" href="#" data-wa="solar">Orçar limpeza de placas <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <article class="svc rv">
+          <span class="svc__ico"><svg aria-hidden="true"><use href="#i-scan"/></svg></span>
+          <h3>Monitoramento</h3>
+          <p>Voos periódicos para acompanhar a lavoura e apontar pontos de atenção.</p>
+          <p class="svc__for"><b>Ideal para</b>Quem quer enxergar o problema cedo e levar dados para o agrônomo.</p>
+          <a class="svc__link" href="#orcamento" data-perfil="produtor" data-servico="Monitoramento">Pedir orçamento <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="svc rv">
+          <span class="svc__ico"><svg aria-hidden="true"><use href="#i-agro"/></svg></span>
+          <h3>Apoio agronômico</h3>
+          <p>Orientação com profissional habilitado, incluindo receituário quando necessário.</p>
+          <p class="svc__for"><b>Ideal para</b>Quem não tem agrônomo fixo ou precisa de uma segunda avaliação.</p>
+          <a class="svc__link" href="#orcamento" data-perfil="produtor" data-servico="Apoio agronômico">Pedir orçamento <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="svc rv">
+          <span class="svc__badge">Recorrente</span>
+          <span class="svc__ico"><svg aria-hidden="true"><use href="#i-cal"/></svg></span>
+          <h3>Plano de safra</h3>
+          <p>Calendário de serviços combinado para o ciclo inteiro da lavoura.</p>
+          <p class="svc__for"><b>Ideal para</b>Quem quer parar de correr atrás de prestador a cada aplicação.</p>
+          <a class="svc__link" href="#orcamento" data-perfil="produtor" data-servico="Plano de safra">Planejar minha safra <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+      </div>
+      <p class="muted rv" style="margin-top:28px;font-size:.88rem;max-width:70ch">A decisão técnica é sempre de um profissional habilitado. A plataforma organiza; não substitui o agrônomo.</p>
+    </div>
+  </section>
+
+  <!-- ROTA SAFRA -->
+  <section class="band band--dark" id="rota-safra" aria-labelledby="h-rota">
+    <div class="wrap rota">
+      <div class="rota__film rv">
+        <canvas id="filmRota" aria-label="Animação: quatro sítios vizinhos de 8 hectares ligados por uma única rota, somando 32 hectares" role="img"></canvas>
+        <div class="rota__hud" aria-hidden="true">
+          <b id="rotaHa">0 ha</b>
+          <span>1 ROTA · <em id="rotaProd">0</em> PRODUTORES · 1 DESLOCAMENTO</span>
+        </div>
+        <span class="rota__ex" aria-hidden="true">Exemplo ilustrativo</span>
+      </div>
+      <div class="rv">
+        <span class="tag">Rota Safra · A carona do campo</span>
+        <h2 id="h-rota" style="margin-top:18px">Sozinho, sua área é pequena. <span class="hl">Junto com os vizinhos, vira rota.</span></h2>
+        <p class="lead" style="margin-top:18px">A gente agrupa propriedades próximas que precisam do mesmo tipo de serviço na mesma janela. O operador faz uma viagem só e atende todo mundo.</p>
+        <ul class="checks">
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Menos viagem perdida para o operador.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Mais chance de você ser atendido dentro da janela certa.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Cada sítio recebe seu próprio registro e paga só pela sua área.</span></li>
+        </ul>
+        <div class="calc" id="calc">
+          <div class="calc__row">
+            <label for="cViz">Sítios vizinhos na mesma janela <output id="oViz" for="cViz">4</output></label>
+            <input type="range" id="cViz" min="1" max="12" value="4">
+          </div>
+          <div class="calc__row">
+            <label for="cHa">Área média de cada sítio <output id="oHa" for="cHa">8 ha</output></label>
+            <input type="range" id="cHa" min="1" max="30" value="8">
+          </div>
+          <div class="calc__out" aria-live="polite">
+            <div><b id="rHa">32 ha</b><span>atendidos numa rota só</span></div>
+            <div><b id="rTrip">1</b><span>deslocamento do operador, em vez de <em id="rSolo">4</em></span></div>
+            <div><b id="rProd">4</b><span>produtores, cada um com seu comprovante</span></div>
+          </div>
+          <p class="calc__note">Simulação ilustrativa. Rota coletiva não é promessa de desconto fixo: o valor depende do terreno, do clima, do produto, do risco e do prestador. Cada propriedade é avaliada separadamente.</p>
+        </div>
+        <div class="btn-row" style="margin-top:26px">
+          <a class="btn" href="#orcamento" data-perfil="produtor" data-rota="1">Entrar na Rota Safra de Santa Teresa</a>
+          <a class="btn btn--ghost" href="#" data-wa="vizinhos"><svg aria-hidden="true"><use href="#i-chat"/></svg>Chamar meus vizinhos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPROVAÇÃO -->
+  <section class="band" aria-labelledby="h-reg">
+    <div class="wrap proof">
+      <div class="rv">
+        <span class="tag">VOSAFRA REGISTRA</span>
+        <h2 id="h-reg" style="margin-top:18px">Serviço feito é <span class="hl">serviço registrado.</span></h2>
+        <p class="lead" style="margin-top:18px">Você recebe o registro do que foi aplicado. Fica guardado e pronto para mostrar ao seu agrônomo, à cooperativa ou ao comprador do seu café.</p>
+        <ul class="checks">
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Data, horário, local, talhão e área executada</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Produto e dose aplicados, conforme o receituário</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Operador, equipamento e condições do tempo na execução</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Mapa ou trajeto do voo (quando disponível) e fotos</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Comprovante de pagamento e próximo passo combinado</span></li>
+        </ul>
+        <div class="btn-row" style="margin-top:28px"><a class="btn btn--dark" href="#orcamento" data-perfil="produtor">Quero esse controle na minha lavoura</a></div>
+      </div>
+      <div class="report rv" aria-label="Modelo de comprovante de execução, exemplo ilustrativo">
+        <span class="report__ex">Modelo · exemplo ilustrativo</span>
+        <div class="report__head">
+          <div><h4>Comprovante de execução</h4><span class="mono">OS EXEMPLO-0000 · VOSAFRA REGISTRA</span></div>
+          <span class="stamp">Registro completo</span>
+        </div>
+        <div class="report__map">
+          <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g fill="none" stroke="#87A996" stroke-opacity=".28">
+              <path d="M-10 120 C 80 90, 160 140, 250 100 S 380 60, 420 80"/><path d="M-10 95 C 90 65, 170 115, 255 75 S 380 35, 420 55"/><path d="M-10 70 C 95 40, 175 90, 260 50 S 385 10, 420 30"/>
+            </g>
+            <path d="M118 32 L268 22 L300 104 L140 126 Z" fill="#BAEB49" fill-opacity=".16" stroke="#BAEB49" stroke-width="1.5"/>
+            <g stroke="#BAEB49" stroke-opacity=".65" stroke-width="1"><path d="M124 46 L274 36M128 60 L279 50M131 74 L284 64M134 88 L289 78M137 102 L294 92M140 116 L298 104"/></g>
+            <path d="M60 140 C 90 110, 100 70, 118 40" stroke="#F6F6F0" stroke-dasharray="4 5" stroke-opacity=".6" fill="none"/>
+            <circle cx="60" cy="140" r="5" fill="#F6F6F0"/>
+            <text x="310" y="30" fill="#F6F6F0" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">TALHÃO 03</text>
+            <text x="310" y="44" fill="#BAEB49" font-family="JetBrains Mono, monospace" font-size="10">8,0 ha</text>
+          </svg>
+        </div>
+        <div class="report__grid">
+          <div class="kv"><span>Município</span><b>Santa Teresa-ES</b></div>
+          <div class="kv"><span>Serviço</span><b>Pulverização (drone)</b></div>
+          <div class="kv"><span>Área executada</span><b>8,0 ha</b></div>
+          <div class="kv"><span>Receituário</span><b>Conferido</b></div>
+          <div class="kv"><span>Operador</span><b>Verificado</b></div>
+          <div class="kv"><span>Condições</span><b>Vento e umidade registrados</b></div>
+        </div>
+        <div class="report__foot"><span>Rota Safra · lote com 4 sítios</span><span class="mono">Próximo contato: combinado</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PÚBLICOS -->
+  <section class="band band--paper" id="parceiros" aria-labelledby="h-aud">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="tag">Uma rede, três portas de entrada</span>
+        <h2 id="h-aud">Quem planta, quem voa e quem organiza a safra.</h2>
+      </div>
+      <div class="aud__tabs" role="tablist" aria-label="Escolha seu perfil">
+        <button role="tab" id="t-prod" aria-selected="true" aria-controls="p-prod">Sou produtor</button>
+        <button role="tab" id="t-op" aria-selected="false" aria-controls="p-op" tabindex="-1">Sou operador de drone</button>
+        <button role="tab" id="t-coop" aria-selected="false" aria-controls="p-coop" tabindex="-1">Sou cooperativa ou revenda</button>
+      </div>
+      <div class="aud__panel" role="tabpanel" id="p-prod" aria-labelledby="t-prod">
+        <div>
+          <span class="tag">Produtor familiar · fazenda · gestor</span>
+          <h3>Você pede. A gente organiza quem faz, quando faz e o papel do que foi feito.</h3>
+          <p class="aud__quote">“A gente explica antes de voar.”</p>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn--dark" href="#orcamento" data-perfil="produtor">Pedir orçamento</a></div>
+        </div>
+        <ul class="aud__list">
+          <li><span class="mono">01</span><span><b>Sem comprar equipamento.</b> Você contrata o serviço por área, quando precisa.</span></li>
+          <li><span class="mono">02</span><span><b>Área pequena entra na rota.</b> Seus vizinhos ajudam a formar o lote.</span></li>
+          <li><span class="mono">03</span><span><b>Seu agrônomo continua decidindo.</b> A gente cuida da execução e do registro.</span></li>
+          <li><span class="mono">04</span><span><b>Tudo pelo WhatsApp.</b> Sem aplicativo para instalar agora.</span></li>
+        </ul>
+      </div>
+      <div class="aud__panel" role="tabpanel" id="p-op" aria-labelledby="t-op" hidden>
+        <div>
+          <span class="tag">Para operadores de drone e prestadores</span>
+          <h3>Você voa. A gente enche a agenda e organiza o resto.</h3>
+          <p class="muted">Pedidos validados, agrupados por região e prontos para executar. Menos estrada vazia, menos cobrança atrasada.</p>
+          <p class="muted" style="margin-top:14px;font-size:.86rem"><b>Quem pode entrar:</b> operadores com cadastro e habilitação em dia (ANAC/DECEA, MAPA e registro no Idaf, quando aplicável). A gente verifica antes de ativar. Há 70 operadores com drone registrados no Idaf (out/2025); estamos montando a rede de Santa Teresa agora.</p>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn--dark" href="#" data-wa="operador">Quero ser operador parceiro</a><a class="btn btn--ghost" href="#orcamento" data-perfil="operador">Enviar meu cadastro</a></div>
+        </div>
+        <ul class="aud__list">
+          <li><span class="mono">01</span><span><b>Agenda cheia.</b> Pedidos chegando já com cultura, área, local e janela definidos.</span></li>
+          <li><span class="mono">02</span><span><b>Rota inteligente.</b> Vários sítios próximos no mesmo dia, em vez de uma viagem para cada um.</span></li>
+          <li><span class="mono">03</span><span><b>Cobrança organizada.</b> Pagamento intermediado pela plataforma. Menos tempo cobrando cliente.</span></li>
+          <li><span class="mono">04</span><span><b>VOSAFRA PRO (em breve).</b> Ordem de serviço, registro de aplicação e histórico num lugar só.</span></li>
+        </ul>
+      </div>
+      <div class="aud__panel" role="tabpanel" id="p-coop" aria-labelledby="t-coop" hidden>
+        <div>
+          <span class="tag">Para cooperativas, revendas e RTs</span>
+          <h3>Um parceiro para a safra dos seus cooperados.</h3>
+          <p class="muted">Seus produtores pedem. A gente organiza operadores, rotas e documentação. Você acompanha tudo com relatório. Estamos abrindo pilotos com poucas organizações no Espírito Santo.</p>
+          <div class="btn-row" style="margin-top:24px"><a class="btn btn--dark" href="#" data-wa="cooperativa">Propor piloto</a><a class="btn btn--ghost" href="#orcamento" data-perfil="cooperativa">Sou cooperativa</a></div>
+        </div>
+        <ul class="aud__list">
+          <li><span class="mono">01</span><span><b>Atendimento para o pequeno.</b> Produtores que hoje ficam sem prestador passam a ter um canal.</span></li>
+          <li><span class="mono">02</span><span><b>Rotas por microrregião.</b> Agenda combinada com o RT da cooperativa.</span></li>
+          <li><span class="mono">03</span><span><b>Registro reunido.</b> Cada serviço documentado e consolidado para a cooperativa.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="band band--dark" id="planos" aria-labelledby="h-planos">
+    <div class="wrap">
+      <div class="sec-head sec-head--split rv">
+        <div style="display:grid;gap:18px">
+          <span class="tag">Do serviço avulso ao plano da safra inteira</span>
+          <h2 id="h-planos">Contrate uma vez. Ou deixe <span class="hl">a safra organizada.</span></h2>
+        </div>
+        <p class="lead">Comece com um pedido. Se fizer sentido, a gente monta o calendário com você. Nenhum preço é fechado sem avaliação da área.</p>
+      </div>
+      <div class="plans">
+        <article class="plan rv">
+          <div class="plan__top"><span class="plan__name">Avulso</span><span class="plan__phase">Disponível no piloto</span></div>
+          <h3>Resolver uma necessidade agora.</h3>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Avaliação da área</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Operador verificado</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Execução e comprovante</span></li>
+          </ul>
+          <p class="plan__price">Orçamento por área. Faixa de referência para pulverização: R$ 120–200/ha. Não é tabela oficial; o valor final depende de avaliação.</p>
+          <a class="btn btn--ghost" href="#orcamento" data-perfil="produtor">Pedir orçamento</a>
+        </article>
+        <article class="plan plan--hot rv">
+          <div class="plan__top"><span class="plan__name">VOSAFRA CLUB</span><span class="plan__phase">Em breve</span></div>
+          <h3>O ciclo inteiro planejado.</h3>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Calendário de serviços da safra</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Prioridade na Rota Safra</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Registros do ciclo reunidos num lugar só</span></li>
+          </ul>
+          <p class="plan__price">Sob consulta. Sem correr atrás de prestador a cada aplicação.</p>
+          <a class="btn btn--dark" href="#orcamento" data-perfil="produtor" data-servico="Plano de safra">Quero saber do CLUB</a>
+        </article>
+        <article class="plan rv">
+          <div class="plan__top"><span class="plan__name">VOSAFRA PARTNER</span><span class="plan__phase">Em breve</span></div>
+          <h3>Cooperativas e empresas.</h3>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Atendimento organizado para a base de cooperados</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Rotas por região</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Relatórios consolidados</span></li>
+          </ul>
+          <p class="plan__price">Sob consulta. Pilotos abertos no Espírito Santo.</p>
+          <a class="btn btn--ghost" href="#" data-wa="cooperativa">Propor piloto</a>
+        </article>
+      </div>
+      <div class="pro rv">
+        <div>
+          <span class="tag">VOSAFRA PRO · para operadores · em breve</span>
+          <h3>O software do operador de drone.</h3>
+          <p>Ordens de serviço, agenda por rota, registro de aplicação e histórico do cliente. Feito junto com os operadores da rede, testado no campo antes de ser cobrado.</p>
+          <div class="pro__feats"><span>Ordens de serviço</span><span>Agenda por rota</span><span>Registro de aplicação</span><span>Cobrança organizada</span></div>
+        </div>
+        <a class="btn" href="#orcamento" data-perfil="operador">Quero ser operador parceiro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SANTA TERESA -->
+  <section class="band" id="santa-teresa" aria-labelledby="h-st">
+    <div class="wrap st">
+      <div class="rv">
+        <span class="tag">Piloto · Santa Teresa-ES</span>
+        <h2 id="h-st" style="margin-top:18px">A gente começa onde <span class="hl">o café sobe a serra.</span></h2>
+        <p class="lead" style="margin-top:18px">Santa Teresa tem o que pede um serviço bem organizado: muitas propriedades familiares, lavoura em encosta e janela curta entre a chuva e a neblina.</p>
+        <div class="st__facts" id="stFacts">
+          <div><b class="mono">2.011</b><span>estabelecimentos rurais, cerca de 80% da agricultura familiar</span></div>
+          <div><b class="mono">86,9%</b><span>da área de lavouras permanentes é café</span></div>
+          <div><b class="mono">5.144 + 3.396 ha</b><span>de conilon e de arábica, no mesmo município</span></div>
+          <div><b class="mono">&lt;400 a &gt;1.000 m</b><span>de altitude: do vale do Rio Doce às encostas da serra</span></div>
+        </div>
+        <p class="muted" style="font-size:.74rem;margin-top:10px">Fonte: Incaper, Proater Santa Teresa, com dados do Censo Agropecuário 2017 (IBGE).</p>
+      </div>
+      <div class="st__card rv">
+        <ol class="roadmap" style="--c:var(--off)">
+          <li class="is-now"><div><span class="mono" style="color:var(--lima)">Agora · piloto</span><b style="color:var(--off)">Santa Teresa</b><p style="color:var(--txt-sec-escuro)">Primeiras rotas por comunidade, com operadores verificados e agrônomos parceiros.</p></div></li>
+          <li><div><span class="mono" style="color:var(--salvia)">Depois</span><b style="color:var(--off)">Região Serrana</b><p style="color:var(--txt-sec-escuro)">Municípios vizinhos, repetindo o que funcionou no piloto.</p></div></li>
+          <li><div><span class="mono" style="color:var(--salvia)">Expansão ES</span><b style="color:var(--off)">Norte capixaba</b><p style="color:var(--txt-sec-escuro)">Linhares, Rio Bananal, Jaguaré e Vila Valério.</p></div></li>
+          <li><div><span class="mono" style="color:var(--salvia)">Próximo capítulo</span><b style="color:var(--off)">Do Espírito Santo para o Brasil</b><p style="color:var(--txt-sec-escuro)">Com cooperativas e parceiros locais, sem comprar frota.</p></div></li>
+        </ol>
+        <p style="color:var(--txt-sec-escuro)">Entre na lista e seja avisado quando a primeira rota da sua comunidade for montada.</p>
+        <div class="btn-row">
+          <a class="btn" href="#orcamento" data-perfil="produtor" data-rota="1">Entrar na lista da Rota Safra</a>
+          <a class="btn btn--ghost" href="#orcamento" data-perfil="produtor">Sou de outra região do ES</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFORMIDADE -->
+  <section class="band band--dark" aria-labelledby="h-comp">
+    <div class="wrap">
+      <div class="sec-head sec-head--split rv">
+        <div style="display:grid;gap:18px">
+          <span class="tag">Feito do jeito certo</span>
+          <h2 id="h-comp">Só voa quem está em dia. <span class="hl">Só aplica com receita.</span></h2>
+        </div>
+        <p class="lead">Conformidade não é burocracia para a gente. É parte do serviço que você contrata. Se algo não estiver em ordem, o serviço não sai.</p>
+      </div>
+      <div class="comp rv">
+        <div><span class="mono">MAPA / SIPEAGRO</span><h3>Registro federal</h3><p>Operadores e prestadores conferidos nos registros exigidos pelo Ministério da Agricultura.</p></div>
+        <div><span class="mono">Idaf + RT</span><h3>Regra estadual</h3><p>Registro estadual verificado e um responsável técnico acompanhando o que é aplicado.</p></div>
+        <div><span class="mono">ANAC / DECEA</span><h3>Espaço aéreo</h3><p>Drone e piloto regularizados, com o voo autorizado no sistema do espaço aéreo (SARPAS).</p></div>
+        <div><span class="mono">Receituário</span><h3>Prescrição</h3><p>Nenhuma pulverização sem prescrição de profissional habilitado.</p></div>
+      </div>
+      <div class="btn-row rv" style="margin-top:28px"><a class="btn btn--ghost" href="#" data-wa="produtor"><svg aria-hidden="true"><use href="#i-chat"/></svg>Tirar uma dúvida sobre documentação</a></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="band" id="duvidas" aria-labelledby="h-faq">
+    <div class="wrap faq">
+      <div class="rv" style="display:grid;gap:18px;align-content:start">
+        <span class="tag">Dúvidas</span>
+        <h2 id="h-faq">Pergunta de produtor, resposta direta.</h2>
+        <p class="lead">Ficou alguma dúvida? Chama no WhatsApp que a gente explica.</p>
+        <div class="btn-row"><a class="btn btn--dark" href="#" data-wa="produtor"><svg aria-hidden="true"><use href="#i-chat"/></svg>Chamar no WhatsApp</a></div>
+      </div>
+      <div class="rv">
+        <details open><summary>Quanto custa?<i>+</i></summary><p>Depende da área, do terreno, do produto e da época. Como referência, pulverização com drone costuma ficar entre R$ 120 e R$ 200 por hectare, mas isso não é tabela oficial. Você recebe um orçamento depois da avaliação, antes de fechar qualquer coisa.</p></details>
+        <details><summary>Minha área é pequena. Vale a pena?<i>+</i></summary><p>É exatamente para isso que existe a Rota Safra. A gente junta sua área com a de vizinhos na mesma janela, para o operador fazer uma viagem só. Sua área pequena deixa de ser problema.</p></details>
+        <details><summary>Meu terreno é muito inclinado. O drone consegue?<i>+</i></summary><p>Em muitos casos, sim. Encosta é justamente onde o drone costuma ajudar mais. Mas cada área é avaliada antes: relevo, obstáculos, rede elétrica e vento. Se não for seguro ou não for o melhor caminho, a gente avisa.</p></details>
+        <details><summary>Quem é responsável pelo serviço?<i>+</i></summary><p>O operador executa e responde pela operação. A prescrição é de um profissional habilitado. A VOSAFRA verifica os documentos, organiza o pedido e guarda o registro. Cada um sabe o seu papel, e isso fica claro antes do voo.</p></details>
+        <details><summary>Que documentos eu preciso ter?<i>+</i></summary><p>Para pulverização, o receituário agronômico do produto. Se você não tiver agrônomo, a gente conecta você com um profissional habilitado. Para mapeamento e monitoramento, basta o local e a autorização de acesso à propriedade.</p></details>
+        <details><summary>Como funciona o pagamento?<i>+</i></summary><p>Você paga pela plataforma, de forma organizada, com comprovante. As condições aparecem no orçamento, antes de você aprovar.</p></details>
+        <details><summary>E se chover ou o tempo não ajudar?<i>+</i></summary><p>O serviço só acontece quando as condições permitem. Se o clima mudar, a gente remarca dentro da janela possível e avisa você. Ninguém voa no improviso.</p></details>
+        <details><summary>E se eu já tenho agrônomo?<i>+</i></summary><p>Melhor ainda. Seu agrônomo continua decidindo o que aplicar. A gente cuida de achar o operador, montar a rota e entregar o registro, que você pode levar para ele.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section class="band band--dark" id="orcamento" aria-labelledby="h-orc">
+    <div class="wrap quote">
+      <div class="rv">
+        <span class="tag">Próxima janela da sua lavoura</span>
+        <h2 id="h-orc" style="margin-top:18px">A safra não espera. <span class="hl">Seu pedido também não precisa esperar.</span></h2>
+        <p class="lead" style="margin-top:18px">Conte o que sua lavoura precisa. Leva uns 2 minutos. A gente avalia sua área e responde pelo WhatsApp.</p>
+        <div class="quote__alt">
+          <a class="alt" href="#" data-wa="produtor"><span class="alt__i"><svg aria-hidden="true"><use href="#i-chat"/></svg></span><span><b>Prefere conversar?</b><small>Pedir orçamento direto no WhatsApp</small></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="alt" href="#" data-wa="operador"><span class="alt__i"><svg aria-hidden="true"><use href="#i-drone"/></svg></span><span><b>Tem drone?</b><small>Quero ser operador parceiro</small></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="alt" href="#" data-wa="solar"><span class="alt__i"><svg aria-hidden="true"><use href="#i-solar"/></svg></span><span><b>Placas solares?</b><small>Orçamento de limpeza com drone</small></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+
+      <form class="form rv" id="form" novalidate>
+        <div class="form__prog" id="prog" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+        <span class="form__stepn" id="stepn">Etapa 1 de 5</span>
+
+        <fieldset class="fstep" data-s="perfil">
+          <legend>Você é:</legend>
+          <div class="opts" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))">
+            <label class="opt"><input type="radio" name="perfil" value="produtor" checked><span>Produtor rural</span></label>
+            <label class="opt"><input type="radio" name="perfil" value="operador"><span>Operador de drone / prestador</span></label>
+            <label class="opt"><input type="radio" name="perfil" value="cooperativa"><span>Cooperativa, revenda ou empresa</span></label>
+            <label class="opt"><input type="radio" name="perfil" value="solar"><span>Quero limpeza de placas solares</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="lavoura" data-for="produtor" hidden>
+          <legend>Sua lavoura</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="cultura" value="Café arábica"><span>Café arábica</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Café conilon"><span>Café conilon</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Banana"><span>Banana</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Eucalipto"><span>Eucalipto</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Pimenta-do-reino"><span>Pimenta-do-reino</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Mamão"><span>Mamão</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Hortaliças"><span>Hortaliças</span></label>
+            <label class="opt"><input type="radio" name="cultura" value="Outra"><span>Outra</span></label>
+          </div>
+          <div class="field" id="outraWrap" hidden><label for="fOutra">Qual?</label><input id="fOutra" name="outra" placeholder="Ex.: cacau, maracujá, citros"></div>
+          <div class="grid2">
+            <div class="field"><label for="fArea">Tamanho da área (hectares)</label><input id="fArea" name="area" inputmode="decimal" placeholder="Ex.: 8" data-req="area"><small>Não sabe ao certo? Coloque uma estimativa. A gente confere.</small></div>
+            <div class="field"><label for="fTalhoes">Quantos talhões?</label><input id="fTalhoes" name="talhoes" inputmode="numeric" placeholder="Ex.: 2 (ou deixe em branco)"></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="servico" data-for="produtor" hidden>
+          <legend>O serviço</legend>
+          <div class="opts" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))">
+            <label class="opt"><input type="checkbox" name="servico" value="Pulverização com drone"><span>Pulverização com drone</span></label>
+            <label class="opt"><input type="checkbox" name="servico" value="Mapeamento de talhão"><span>Mapeamento de talhão</span></label>
+            <label class="opt"><input type="checkbox" name="servico" value="Monitoramento"><span>Monitoramento</span></label>
+            <label class="opt"><input type="checkbox" name="servico" value="Apoio agronômico"><span>Apoio agronômico</span></label>
+            <label class="opt"><input type="checkbox" name="servico" value="Plano de safra"><span>Plano de safra</span></label>
+            <label class="opt"><input type="checkbox" name="servico" value="Ainda não sei, quero orientação"><span>Ainda não sei, quero orientação</span></label>
+          </div>
+          <div class="field" id="receitaWrap" hidden>
+            <label for="fReceita">Você já tem receituário agronômico?</label>
+            <select id="fReceita" name="receita"><option>Sim, já tenho</option><option>Não, preciso de um agrônomo</option><option>Não sei o que é isso</option></select>
+            <small>Sem problema. A gente explica e conecta você com um profissional habilitado.</small>
+          </div>
+          <div class="field">
+            <label for="fJanela">Quando você precisa?</label>
+            <select id="fJanela" name="janela"><option>O quanto antes (próximos 7 dias)</option><option>Nas próximas semanas</option><option>No próximo mês</option><option>Quero planejar a safra</option></select>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="local" data-for="produtor" hidden>
+          <legend>Onde fica</legend>
+          <div class="grid2">
+            <div class="field"><label for="fMun">Município</label><input id="fMun" name="municipio" value="Santa Teresa" data-req="text" autocomplete="address-level2"></div>
+            <div class="field"><label for="fCom">Comunidade ou localidade</label><input id="fCom" name="comunidade" placeholder="Ex.: Várzea Alegre, Nova Valsugana"></div>
+          </div>
+          <div class="field"><label for="fRef">Ponto de referência (opcional)</label><input id="fRef" name="referencia" placeholder="Ex.: depois da igreja, estrada de chão à direita"></div>
+          <label class="opt"><input type="checkbox" name="rota" id="fRota" value="sim"><span>Quero entrar na Rota Safra com meus vizinhos</span></label>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="operador" data-for="operador" hidden>
+          <legend>Cadastro de operador</legend>
+          <div class="grid2">
+            <div class="field"><label for="fOpBase">Município base</label><input id="fOpBase" name="opBase" data-req="text" placeholder="Ex.: Santa Teresa"></div>
+            <div class="field"><label for="fOpDrone">Modelo do drone</label><input id="fOpDrone" name="opDrone" placeholder="Marca e modelo"></div>
+            <div class="field"><label for="fOpIdaf">Tem registro no Idaf?</label><select id="fOpIdaf" name="opIdaf"><option>Sim</option><option>Não</option><option>Em andamento</option></select></div>
+            <div class="field"><label for="fOpAnac">Cadastros ANAC/DECEA em dia?</label><select id="fOpAnac" name="opAnac"><option>Sim</option><option>Não</option><option>Em andamento</option></select></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="cooperativa" data-for="cooperativa" hidden>
+          <legend>Sobre a organização</legend>
+          <div class="grid2">
+            <div class="field"><label for="fCoOrg">Organização</label><input id="fCoOrg" name="coOrg" data-req="text" autocomplete="organization"></div>
+            <div class="field"><label for="fCoCargo">Cargo</label><input id="fCoCargo" name="coCargo"></div>
+            <div class="field"><label for="fCoMun">Município(s) de atuação</label><input id="fCoMun" name="coMun"></div>
+            <div class="field"><label for="fCoN">Nº aproximado de produtores</label><input id="fCoN" name="coN" inputmode="numeric" placeholder="Ex.: 150"></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="solar" data-for="solar" hidden>
+          <legend>Placas solares</legend>
+          <div class="grid2">
+            <div class="field"><label for="fSoMun">Município</label><input id="fSoMun" name="soMun" data-req="text" placeholder="Ex.: Santa Teresa"></div>
+            <div class="field"><label for="fSoTipo">Tipo de local</label><select id="fSoTipo" name="soTipo"><option>Propriedade rural</option><option>Galpão / empresa</option><option>Usina</option><option>Residência</option></select></div>
+            <div class="field"><label for="fSoQtd">Quantidade aproximada de placas</label><input id="fSoQtd" name="soQtd" inputmode="numeric" placeholder="Ex.: 40"></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fstep" data-s="contato" hidden>
+          <legend>Seu contato</legend>
+          <div class="grid2">
+            <div class="field"><label for="fNome">Seu nome</label><input id="fNome" name="nome" data-req="text" placeholder="Como prefere ser chamado" autocomplete="given-name"></div>
+            <div class="field"><label for="fZap">WhatsApp com DDD</label><input id="fZap" name="whatsapp" data-req="phone" inputmode="tel" placeholder="(27) 9 0000-0000" autocomplete="tel-national"></div>
+          </div>
+          <div class="field"><label for="fHora">Melhor horário para contato</label><select id="fHora" name="horario"><option>Manhã</option><option>Tarde</option><option>Noite</option><option>Qualquer horário</option></select></div>
+          <div class="field"><label for="fObs">Quer contar mais alguma coisa? (opcional)</label><textarea id="fObs" name="obs" rows="2" placeholder="Ex.: a lavoura é em encosta forte, tem rede elétrica perto"></textarea></div>
+          <label class="opt"><input type="checkbox" id="fOk" name="ok" data-req="ok"><span style="font-weight:450;font-size:.84rem">Concordo em receber contato da VOSAFRA pelo WhatsApp sobre este pedido.</span></label>
+        </fieldset>
+
+        <div class="form__done" id="done" hidden>
+          <span class="tag">Pedido pronto</span>
+          <h3 id="doneTitle" style="color:var(--floresta)">Pedido pronto!</h3>
+          <p id="doneText" class="muted"></p>
+          <pre id="doneMsg"></pre>
+          <div class="btn-row">
+            <a class="btn btn--dark" id="doneWa" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-chat"/></svg>Enviar pelo WhatsApp</a>
+            <button class="btn btn--ghost" type="button" id="doneCopy">Copiar mensagem</button>
+          </div>
+          <a class="svc__link" href="#" data-wa="vizinhos">Chamar meus vizinhos para a Rota Safra <svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <p class="form__err" id="err" role="alert"></p>
+        <div class="form__nav" id="fnav">
+          <button class="btn btn--ghost" type="button" id="back" hidden>Voltar</button>
+          <button class="btn btn--dark" type="submit" id="next">Continuar</button>
+        </div>
+        <small class="muted" style="font-size:.76rem">Sem compromisso. Seus dados são usados só para este atendimento.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <a class="logo" href="#top"><svg aria-hidden="true"><use href="#v-mark"/></svg><span class="logo__name">VOSAFRA<small>CONNECT</small></span></a>
+        <p style="color:var(--off);font-weight:600">Precisão no alto. Resultado no campo.</p>
+        <p style="margin-top:6px">O drone é o meio. A safra atendida é o produto.</p>
+      </div>
+      <div><h4>Produtor</h4><ul><li><a href="#como-funciona">Como funciona</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#rota-safra">Rota Safra</a></li><li><a href="#planos">Planos</a></li><li><a href="#duvidas">Dúvidas</a></li></ul></div>
+      <div><h4>Parceiros</h4><ul><li><a href="#parceiros">Para operadores</a></li><li><a href="#parceiros">Para cooperativas</a></li><li><a href="#servicos">Placas solares</a></li></ul></div>
+      <div><h4>Contato</h4><ul><li><a href="#" data-wa="produtor">WhatsApp (27) 98181-6871</a></li><li>Santa Teresa · Espírito Santo</li></ul></div>
+    </div>
+    <p style="margin-top:36px;font-size:.76rem;max-width:90ch">A VOSAFRA CONNECT organiza a contratação de serviços agrícolas executados por profissionais habilitados. Recomendações técnicas e prescrições são de responsabilidade do profissional habilitado. Valores citados são referências e não constituem tabela oficial. Resultados dependem de condições de campo, clima e manejo. Fontes: área de conilon, estimativa Seag-ES 2026; operadores com drone, registro Idaf, out/2025.</p>
+    <div class="foot__legal"><span>© 2026 VOSAFRA CONNECT · Identidade conceitual, sujeita a validação de marca</span><span>Política de privacidade · Termos de uso</span></div>
+  </div>
+</footer>
+
+<div class="wa-bar" id="waBar">
+  <a class="btn btn--ghost" href="#orcamento" data-perfil="produtor">Formulário</a>
+  <a class="btn" href="#" data-wa="produtor"><svg aria-hidden="true"><use href="#i-chat"/></svg>Orçamento no WhatsApp</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/films.js"></script>
+<script src="js/scenes3d.js"></script>
+<script src="js/main.js"></script>
+<!--/A:BODY-->
+</body>
+</html>
