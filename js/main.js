@@ -98,11 +98,17 @@
   // Vídeo da abertura: quando carrega, assume o lugar da cena 3D (que fica de reserva)
   var heroV = $('#heroVideo');
   if (heroV) {
-    if (reduce) { heroV.removeAttribute('autoplay'); try { heroV.pause(); } catch (e) {} }
-    heroV.addEventListener('loadeddata', function () {
+    var useVideo = function () {
+      if (hero.classList.contains('has-video')) return;
       hero.classList.add('has-video');
       if (heroFilm && heroFilm.destroy) { heroFilm.destroy(); heroFilm = null; }
-    });
+    };
+    if (reduce) { heroV.removeAttribute('autoplay'); try { heroV.pause(); } catch (e) {} }
+    else { var pv = heroV.play(); if (pv && pv.catch) pv.catch(function () {}); }
+    // o vídeo pode ficar pronto antes deste script rodar: checa o estado atual além dos eventos
+    if (heroV.readyState >= 2) useVideo();
+    heroV.addEventListener('loadeddata', useVideo);
+    heroV.addEventListener('playing', useVideo);
   }
 
   // ===== Vídeo real em moldura 3D que "deita" e endireita com a rolagem =====
